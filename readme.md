@@ -2,7 +2,9 @@
 
 ### Overview
 
-![alt text](Assets/images/index.png)
+![alt text](mongo.png)
+When clicking scrape new articles, please refresh page to see more
+I am working on that fix right now to edit page on click
 
 This is a mongo scraper without finished functionality
 
@@ -21,4 +23,5 @@ If there are any questions, ask and I'll be willing to answer the entire functio
 **Enjoy!**
 
 # Hakuti.github.io
+
 # MongoScrapeV1
