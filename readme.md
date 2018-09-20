@@ -2,7 +2,7 @@
 
 ### Overview
 
-![alt text](mongo.png)
+![alt text](Mongo.png)
 When clicking scrape new articles, please refresh page to see more
 I am working on that fix right now to edit page on click
 
