@@ -25,10 +25,20 @@ app.use(bodyParser.json());
 
 // app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 // app.set("view engine", "handlebars");
-mongoose.connect(
-  "mongodb://localhost/mongoHeadlines",
-  { useNewUrlParser: true }
-);
+// mongoose.connect(
+//   "mongodb://localhost/mongoHeadlines",
+//   { useNewUrlParser: true }
+// );
+var databaseURI = "mongodb://localhost/mongoHeadlines";
+
+if (process.env.MONGODB_URI) {
+  mongoose.connect(process.env.MONGODB_URI);
+} else {
+  mongoose.connect(
+    "mongodb://localhost/mongoHeadlines",
+    { useNewUrlParser: true }
+  );
+}
 
 // var MONGODB_URI = "mongodb://localhost:27017/config";
 
